@@ -35,9 +35,9 @@ function newElement() {
   if (inputValue === '') {
     alert("You must write something!");
   } else {
-    document.getElementById("myUL").appendChild(li);
+    document.getElementById("todolist").appendChild(li);
   }
-  document.getElementById("myInput").value = "";
+  document.getElementById("UserInput").value = "";
 
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
