@@ -16,7 +16,12 @@
   p{
     max-width: 750px;
   }
-  
+
+  a{
+    text-decoration: none;
+  }
+
+
   h1 span{
     color: #007EFF;
   }
